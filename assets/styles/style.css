@@ -8,12 +8,14 @@ body {
     font-family: sans-serif;
 }
 
+/* header style */
+
 header {
     display: flex;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
-    justify-content: space-between;
+    margin-left: 10px;
 }
 
 header h1 {
@@ -22,20 +24,25 @@ header h1 {
     margin: 0;
 }
 
+header img {
+    width: 10%;
+    float: left;
+}
+
 header a {
     text-decoration: none;
-    color: #4059ad;;
+    color: #4059ad;
 }
 
 header nav {
     margin: 5px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
@@ -44,13 +51,53 @@ header nav ul li a {
     font-weight: light;
     font-size: 18px;
     margin: 10px;
+    float: right;
 
 }
+
+header nav ul li a:hover {
+    color: #ff9b42;
+}
+
+/*content sections style */
 
 .section-title {
     color: #ff9b42;
 }
 
+.about-me {
+    display: flex;
+    margin-left: 10px;
+}
+
+.about-me h2 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.avatar-img img {
+    width: 50%;
+    flex-wrap: wrap;
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.portfolio {
+    display: flex;
+    float: right;
+    margin-top: 25px;
+    margin-right: 35px;
+    font-size: 20px;
+}
+
+.contact-info {
+    display: flex;
+    margin-top: 50px;
+}
+
 footer {
     color: #4059ad;
+    font-weight: lighter; 
+    font-size: 13px;
 }
