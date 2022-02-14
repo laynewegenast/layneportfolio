@@ -177,6 +177,7 @@ header nav ul li a:hover {
  /* contact style */
 .contact-info {
     display: flex;
+    justify-content: space-between;
     margin-top: 50px;
     margin-left: 45px;
     margin-right: 45px;
@@ -185,13 +186,22 @@ header nav ul li a:hover {
 }
 
 .contact-info h2 {
+    display: flex;
     font-size: 40px;
+    font-weight: normal;
+    margin: 10px 5px 10px 10px;
+}
+
+.contact-info h3 {
+    flex-wrap: wrap;
+    margin-top: 25px;
     font-weight: normal;
 }
 
 .contact-info h3 a {
     text-decoration: none;
     color: #36703f;
+    margin: 10px;
 }
 
 .contact-info h3 a:hover {
@@ -264,6 +274,10 @@ footer {
 
     .avatar {
         margin-left: 45px;
+    }
+
+    .contact-info h3 {
+        flex-direction: column;
     }
 }
 
