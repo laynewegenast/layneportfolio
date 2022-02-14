@@ -1,11 +1,12 @@
 * {
-    margin: 1;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: sans-serif;
+    background-color: #c6caed;
 }
 
 /* header style */
@@ -15,18 +16,23 @@ header {
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
-    margin-left: 10px;
+    justify-content: space-between;
+    background-color: #e1e3f5;
+    padding-bottom: 10px;
 }
 
 header h1 {
     font-size: 75px;
     color: #4059ad;
-    margin: 0;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
-header img {
-    width: 10%;
-    float: left;
+header h1 img {
+    width: 7%;
+   max-height: fit-content;
+   max-width: fit-content ;
 }
 
 header a {
@@ -36,6 +42,7 @@ header a {
 
 header nav {
     margin: 5px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -45,54 +52,92 @@ header nav ul {
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
+    justify-content: space-between;
 }
 
 header nav ul li a {
     font-weight: light;
     font-size: 18px;
     margin: 10px;
-
 }
 
 header nav ul li a:hover {
-    color: #ff9b42;
+    color: #f7a072;
 }
-
-/*content sections style */
 
 .section-title {
-    color: #ff9b42;
+    color: #374f9c;
 }
 
-.about-me {
+/*about me style */
+
+#about-me {
     display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.description {
+   flex-wrap: wrap;
+   margin-left: 15px;
+   border: 5px solid #f7a072;
+   background-color: #e1e3f5;
+}
+
+.description h2 {
+    justify-content: flex-start;
+    font-size: 40px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.description p {
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #4059ad;
+}
+
+.avatar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.avatar img {
+    justify-content: flex-end;
+    width: 100%;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-top: 10px;
+    margin-right: 10px;
     margin-left: 10px;
 }
 
-.about-me h2 {
-    font-size: 30px;
-    margin-top: 10px;
-}
-
-.avatar-img img {
-    width: 50%;
-    flex-wrap: wrap;
-    float: right;
-    margin-right: 70px;
-    margin-top: 10px;
-}
+/* work style */
 
 .portfolio {
     display: flex;
-    float: right;
     margin-top: 25px;
     margin-right: 35px;
-    font-size: 20px;
+    flex-direction: row-reverse;
+}
+
+.portfolio h2 {
+    font-size: 30px;
+}
+
+.portfolio img {
+    width: 50%;
 }
 
 .contact-info {
     display: flex;
     margin-top: 50px;
+}
+
+.contact-info h2 {
+    font-size: 30px;
 }
 
 footer {
