@@ -141,9 +141,8 @@ header nav ul li a:hover {
 
 .run-buddy {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    flex-wrap: wrap; 
+    margin-bottom: 10px; 
     border: 5px solid #f7a072;
 }
 
@@ -156,10 +155,11 @@ header nav ul li a:hover {
     font-size: 25px;
     font-weight: normal;
     font-style: italic;
+    margin-left: 45px;
 }
 
 .run-buddy img {
-    width: 80%;
+    width: 90%;
 }
 
 .run-buddy img:hover {
@@ -170,6 +170,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     border: 5px solid #f7a072;
+    margin-left: 15px;
 }
 
 .mm-film iframe {
@@ -184,6 +185,7 @@ header nav ul li a:hover {
 
 .horiseon {
     display: flex;
+    justify-content: flex-end;
     flex-wrap: wrap;
     border: 5px solid #f7a072;
 }
@@ -256,6 +258,19 @@ footer {
     header h1 {
         text-align: center;
     }
+
+    .run-buddy {
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+
+    .run-buddy h3 {
+        margin-left: auto;
+    }
+
+    .run-buddy img {
+        width: 100%;
+    }
 }
 
 /* MEDIA QUERY tablets and smaller */
@@ -272,6 +287,9 @@ footer {
 
     #portfolio {
         justify-content: center;
+    }
+    .run-buddy img {
+        width: 100%;
     }
 
 }
@@ -318,6 +336,10 @@ footer {
     #portfolio {
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .run-buddy img {
+        width: 100%;
     }
 
 
