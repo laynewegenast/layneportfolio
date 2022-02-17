@@ -147,6 +147,11 @@ header nav ul li a:hover {
     border: 5px solid #f7a072;
 }
 
+.run-buddy a {
+    display: flex;
+    justify-content: center;
+}
+
 .run-buddy h3 {
     font-size: 25px;
     font-weight: normal;
@@ -172,6 +177,26 @@ header nav ul li a:hover {
 }
 
 .mm-film h3 {
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.horiseon {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid #f7a072;
+}
+
+.horiseon img {
+    width: 50%;
+}
+
+.horiseon img:hover {
+    opacity: 0.5;
+}
+
+.horiseon h3 {
     font-size: 25px;
     font-weight: normal;
     font-style: italic;
