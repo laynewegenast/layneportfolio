@@ -10,4 +10,7 @@
 
 ### In my past work section, my first application image displays larger than the others. Since I do not have much experience with web design and development I included a link to a youtube video of mine to take up more space as well as show the user my versitile skill set. In addition, this allowed me to practice the application of the iframe element (which was a good skill refresh). Clicking on these application images takes the user to the given website. The images are also set to change transparency when hovered over.
 
-### The site is also designed and set to be responsive to differing screen sizes using media queries. This was definitely my greatest challenge, but again this was great practice 
+### The site is also designed and set to be responsive to differing screen sizes using media queries. This was definitely my greatest challenge, but again this was great practice. Adjusting to using percentages vs. pixels greatly helped my overall site responsiveness = and allowed images to not become distorted.
+
+## Link to website
+### https://laynewegenast.github.io/layneportfolio/
