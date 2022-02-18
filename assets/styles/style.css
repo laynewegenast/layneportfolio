@@ -155,7 +155,6 @@ header nav ul li a:hover {
     font-size: 25px;
     font-weight: normal;
     font-style: italic;
-    margin-left: 45px;
 }
 
 .run-buddy img {
@@ -173,6 +172,10 @@ header nav ul li a:hover {
     margin-left: 15px;
 }
 
+.mm-film a {
+    display: inline-block;
+}
+
 .mm-film iframe {
     width: 100%;
 }
@@ -185,9 +188,9 @@ header nav ul li a:hover {
 
 .horiseon {
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
     border: 5px solid #f7a072;
+    margin-right: 10px;
 }
 
 .horiseon img {
@@ -347,6 +350,10 @@ footer {
         align-items: center;
         width: 70%;
         height: 70%;
+    }
+
+    .contact-info {
+        overflow: auto;
     }
 }
 
